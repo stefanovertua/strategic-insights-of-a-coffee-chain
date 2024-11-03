@@ -66,7 +66,8 @@ Interestingly, major markets do not necessarily correlate with higher sales or p
 The following are the top and bottom five states by profit. As with sales, there is no apparent geographical correlation or consistent pattern regarding market size, demographic composition, or cultural region. However, there are significant profit differences among states. For example, the combined profits of the bottom five regions are still 20% lower than those of Illinois, the highest-performing state.
 
 
-![image](https://github.com/user-attachments/assets/98c26b0f-506d-448f-9cd9-9fe069696899)
+![image](https://github.com/user-attachments/assets/f6899486-f35c-477b-a768-c9134bb1cd17)
+
 
 
 
