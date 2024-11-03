@@ -65,7 +65,10 @@ Interestingly, major markets do not necessarily correlate with higher sales or p
 
 The following are the top and bottom five states by profit. As with sales, there is no apparent geographical correlation or consistent pattern regarding market size, demographic composition, or cultural region. However, there are significant profit differences among states. For example, the combined profits of the bottom five regions are still 20% lower than those of Illinois, the highest-performing state.
 
-![image6](https://github.com/user-attachments/assets/6ba974ad-8d45-4d79-8aec-1650cef15d54)
+
+![image](https://github.com/user-attachments/assets/98c26b0f-506d-448f-9cd9-9fe069696899)
+
+
 
 
 Having analyzed the geographical distribution, I could now assess the product lines, focusing on sales and profits for each. The results, ranked by profits, indicate that Colombian coffee from the Beans product line has both the highest sales and the highest profits. <br>
@@ -78,11 +81,11 @@ Interestingly, Regular Espresso, despite ranking low in sales, performs average 
 ![image1](https://github.com/user-attachments/assets/6492f715-e02b-4756-92b4-13f00db5e6b8)
 
 
-In analyzing the breakdown of sales by product, there is a relatively equal distribution across both the product lines and individual products. This balanced distribution suggests that no single product or line dominates sales, indicating a diverse customer preference for various offerings.
+When sales are broken down by product, there is a relatively equal distribution across both the product lines and individual products. This balanced distribution suggests that no single product or line dominates sales, indicating a diverse customer preference for various offerings.
 
 
-![image10](https://github.com/user-attachments/assets/bab11961-7cad-4531-8672-c4e76fcb99de)
-![image3](https://github.com/user-attachments/assets/7d061683-e345-4cc8-a4b9-97e17ccbe992)
+![Screenshot 2024-11-03 215918](https://github.com/user-attachments/assets/f2242855-e62a-4eab-9c6e-fa8d77f6ddfc)
+![Screenshot 2024-11-03 215907](https://github.com/user-attachments/assets/d58d2171-72e9-4faf-b992-29923e0f3f61)
 
 
 Having previously focused on product performance, I could now evaluated the company’s overall performance against its targets. 
@@ -147,6 +150,5 @@ In conclusion, a thorough analysis of the coffee chain's sales data has provided
 Although the study provides useful information, it is subject to a couple of limitations.
 + The dataset lacks data on specific purchase times throughout the day. Knowing this information could help analyze when peak sales times are, and consequently adjust staffing accordingly, in order to reduce labor costs during off-peak hours.
 + A more detailed market analysis is needed to provide better recommendations. It’s therefore necessary to conduct deeper research into customer preferences and competitor activity in high-performing regions to understand the drivers of success. 
-
 
 
