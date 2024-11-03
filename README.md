@@ -34,13 +34,13 @@ Key metrics include:
 + Date: The date of each sales transaction, allowing for chronological tracking of sales
 + Inventory Margin: This metric reflects the profitability of inventory by showing the difference between the costs of maintaining or storing inventory and the revenue generated from selling it. 
 + Margin: This measures the overall profitability of the firm
-+ Market Size: This attribute provides information on the size of the 20 markets, equivalling to 20 US States where the firm operates. 
++ Market Size: This attribute provides information on the size of the 20 markets, equivalent to 20 US States where the firm operates. 
 + Profit: This is the net financial gain achieved after deducting the COGS and other operational expenses from the revenue generated. It represents the company's overall earnings and it’s a fundamental measure of its financial health and success.
 + Sales: Sales reflect the revenue generated from selling the coffee chain’s products, serving as a direct indicator of financial performance and customer demand. Analyzing sales trends can help in understanding consumer preferences, identifying best-selling products, and adjusting inventory accordingly.
 
 The dataset also categorizes the 20 U.S. States into four regions—West, Central, East, and South—and classifies markets as Major or Small based on the state population.
 
-The dataset met high standard of accuracy, and no further data cleaning was needed.
+The dataset met a high standard of accuracy, and no further data cleaning was needed.
 
 ## Analysis
 
@@ -71,7 +71,6 @@ The following are the top and bottom five states by profit. As with sales, there
 
 
 
-
 Having analyzed the geographical distribution, I could now assess the product lines, focusing on sales and profits for each. The results, ranked by profits, indicate that Colombian coffee from the Beans product line has both the highest sales and the highest profits. <br>
 I suggest continuing promoting Colombian coffee, as it excels in both metrics. However, it would be worthwhile to explore whether further promotion could lead to saturation in the market.
 
@@ -89,7 +88,7 @@ When sales are broken down by product, there is a relatively equal distribution 
 ![Screenshot 2024-11-03 215907](https://github.com/user-attachments/assets/d58d2171-72e9-4faf-b992-29923e0f3f61)
 
 
-Having previously focused on product performance, I could now evaluated the company’s overall performance against its targets. 
+Having previously focused on product performance, I could now evaluate the company’s overall performance against its targets. 
 The graph below, enhanced with conditional formatting for clarity, illustrates the results. All values are presented in U.S. Dollars.
 
 In terms of sales, out of 16 entries, only 4 are negative, which is a positive indicator. Notably, the results from the Leaves product line in the small markets of the West region are particularly strong. All Leaves products reported positive sales, and most also showed good profit margins, with only a few experiencing marginal losses. <br>
@@ -102,7 +101,7 @@ Nonetheless, it is encouraging that all products recorded profits.
 Below is the graph depicting the change in profits over time.
 
 Profits plateaued from the beginning of the dataset until the end of 2013. However, a remarkable spike is recorded thereafter. <br>
-The last two quarters, however, have shown a significant decline. Despite this decline, profits in Q3 2015, while less than half of the peak reached in Q3 2014, still surpass any quarter in 2012 and 2013. Notably, profits in 2015, despite missing a quarter, are more than double those in 2013 ($21,954 vs. $9,484).
+The last two quarters, however, have shown a significant decline. Despite this decline, profits in Q3 2015, while less than half of the peak reached in Q3 2014, still surpassed any quarter in 2012 and 2013. Notably, profits in 2015, despite missing a quarter, are more than double those in 2013 ($21,954 vs. $9,484).
 
 Since the lowest point in Q3 2013, the company has demonstrated steady improvements for a year. In fact, Q3 2014 alone recorded more profits than the entire year of 2013.
 
@@ -115,13 +114,13 @@ The top three outperforming states are Iowa, New York, and California.
 
 ![picture9](https://github.com/user-attachments/assets/0fcd1989-9f32-481c-b00a-008099d4a9a3)
 
-Finally, it is crucial to investigate whether our expenses are effectively contributing to profits in order to evaluate our strategy. To this end, I analyzed the correlation between total expenses, profit, and sales across different markets and product lines. 
+Finally, it is crucial to investigate whether the expenses are effectively contributing to profits in order to evaluate our strategy. To this end, I analyzed the correlation between total expenses, profit, and sales across different markets and product lines. 
 
 ![picture10](https://github.com/user-attachments/assets/9029a14d-c160-4e31-ad3f-4fd4cd000d87)
 
 ## Executive summary
 
-+ The coffee chain offers a diverse but focused product range, with 2 product lines encompassing 4 product types and 13 distinct products, allowing for targeted marketing and streamlined operations while still providing variety to customers. This is an advantage, meaning that we can leverage several different products to target different tastes and demographics sectors. Notably, all product types and lines exhibit nearly equal popularity.
++ The coffee chain offers a diverse but focused product range, with 2 product lines encompassing 4 product types and 13 distinct products, allowing for targeted marketing and streamlined operations while still providing variety to customers. This is an advantage, meaning that we can leverage several different products to target different tastes and demographic sectors. Notably, all product types and lines exhibit nearly equal popularity.
 + With an average profit of $60.56 per transaction and a healthy profit margin (average profit / average sales = 31.7%), the coffee chain appears to be operating efficiently, though there may be room to optimize expenses (28.2% of sales) to further improve profitability.
 + The firm has achieved more sales targets than profit targets overall. This discrepancy suggests that there may be underlying challenges in translating that revenue into actual profits.
 + The West region, particularly in Small Markets, consistently outperforms other regions in total sales ($67,418) and average margin (160.42%), suggesting a strong market presence and efficient operations in this area. However, it also has the highest average COGS (149.28), indicating potential for cost optimization to further improve profitability.
@@ -140,7 +139,7 @@ The recommendations are organized into three key areas: products, markets, and o
 + It’s crucial to focus on high-performing regions for expansion opportunities or additional resource investment. By directing resources where demand and profitability are strong, the company can maximize its return on investment. On the other hand, other areas reveal lower profitability, often due to high operational costs or lower customer demand. These regions may benefit from strategies such as adjusting product mixes, improving cost efficiencies, or targeted marketing efforts to boost sales. For underperforming regions, assess the feasibility of revitalization efforts versus potential divestment if long-term prospects seem limited.
   
 **Operational efficiency**
-+ For the company’s Financial Department, I would nvestigate and renegotiate with suppliers for high COGS areas to reduce costs and boost profitability. I would evaluate current supplier agreements and explore ways to reduce expenses, especially for high-cost locations. In addition to supplier negotiations, I’d recommend implementing more efficient logistical practices, such as centralized procurement or collaborative buying, to cut down on operational costs where feasible. A cost monitoring system may be needed to track high COGS locations.
++ For the company’s Financial Department, I would investigate and renegotiate with suppliers for high COGS areas to reduce costs and boost profitability. I would evaluate current supplier agreements and explore ways to reduce expenses, especially for high-cost locations. In addition to supplier negotiations, I’d recommend implementing more efficient logistical practices, such as centralized procurement or collaborative buying, to cut down on operational costs where feasible. A cost monitoring system may be needed to track high COGS locations.
 + It’s key to streamline inventory based on sales trends and demand forecasting to improve margins in lower-performing areas. Trends around inventory margin indicate certain locations manage stock effectively, minimizing waste and maximizing sales relative to stored items. Areas with low inventory turnover may need better demand forecasting or inventory adjustments.
 
 In conclusion, a thorough analysis of the coffee chain's sales data has provided valuable insights into sales trends, product performance, and cost management. <br>
