@@ -58,7 +58,7 @@ Given that we have information on market size and orders segmented by market typ
 
 ![picture1](https://github.com/user-attachments/assets/f7d95b9c-3b84-4cf5-aa83-9d3650d0e267)
 
-Interestingly, major markets do not necessarily correlate with higher sales or profits. Additionally, each year, no state—except for Texas—appears twice in the ranking of top-selling states. See the chart below for details.
+Interestingly, major markets do not necessarily correlate with higher sales or profits. Additionally, each year, no state (except for Texas) appears twice in the ranking of top-selling states. See the chart below for details.
 
 ![image5](https://github.com/user-attachments/assets/7c44a418-ea5e-4be3-9f22-707a9da50828)
 
