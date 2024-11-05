@@ -3,6 +3,7 @@
 ## Overview
 
 This document provides an analysis of key performance data for a prominent U.S.-based coffee chain with locations spanning 20 states. <br>
+
 Metrics reviewed include sales, costs, profits, and inventory across multiple locations. <br>
 
 The analysis addresses the following objectives:
@@ -34,7 +35,7 @@ Key metrics include:
 + Date: The date of each sales transaction, allowing for chronological tracking of sales
 + Inventory Margin: This metric reflects the profitability of inventory by showing the difference between the costs of maintaining or storing inventory and the revenue generated from selling it. 
 + Margin: This measures the overall profitability of the firm
-+ Market Size: This attribute provides information on the size of the 20 markets, equivalent to 20 US States where the firm operates. 
++ Market Size: This attribute provides information on the size of the 20 markets, equivalent to the 20 US States where the firm operates. 
 + Profit: This is the net financial gain achieved after deducting the COGS and other operational expenses from the revenue generated. It represents the company's overall earnings and it’s a fundamental measure of its financial health and success.
 + Sales: Sales reflect the revenue generated from selling the coffee chain’s products, serving as a direct indicator of financial performance and customer demand. Analyzing sales trends can help in understanding consumer preferences, identifying best-selling products, and adjusting inventory accordingly.
 
@@ -76,7 +77,7 @@ I suggest continuing promoting Colombian coffee, as it excels in both metrics. H
 
 There is a significant disparity between the top products, both in terms of sales and profits, and those at the bottom. 
 
-Interestingly, Regular Espresso, despite ranking low in sales, performs average in profits, indicating strong profitability potential. Regular Espresso has comparable profits to Decaf Irish Cream, despite selling nearly half as much.
+Interestingly, Regular Espresso, despite ranking last in sales, performs average in profits, indicating strong profitability potential. Regular Espresso has comparable profits to Decaf Irish Cream, despite selling nearly half as much.
 
 ![image1](https://github.com/user-attachments/assets/6492f715-e02b-4756-92b4-13f00db5e6b8)
 
@@ -91,12 +92,13 @@ When sales are broken down by product, there is a relatively equal distribution 
 Having previously focused on product performance, I could now evaluate the company’s overall performance against its targets. 
 The graph below, enhanced with conditional formatting for clarity, illustrates the results. All values are presented in U.S. Dollars.
 
-In terms of sales, out of 16 entries, only 4 are negative, which is a positive indicator. Notably, the results from the Leaves product line in the small markets of the West region are particularly strong. All Leaves products reported positive sales, and most also showed good profit margins, with only a few experiencing marginal losses. <br>
-<br> However, only 9 of the 16 entries show positive profit performance, signaling a need for attention. The performance of Beans in the Central region is concerning, while Leaves continue to thrive. This suggests a need for a strategic change—whether that involves focusing more on the market, withdrawing certain products, or investigating the root causes of underperformance.
+In terms of sales, out of 16 entries, only 4 underperformed. Notably, the results from the Leaves product line in the West region are particularly positive. All Leaves products reported positive sales, and most also showed good profit margins, with only a few experiencing marginal losses. <br>
+<br> However, only 7 of the 16 entries show overperformance in terms of profits, signaling a need for attention. The performance of Beans in the Central region is concerning, while Leaves continue to thrive. This suggests a need for a strategic change—whether that involves focusing more on the market, withdrawing certain products, or investigating the root causes of underperformance.
 
 Nonetheless, it is encouraging that all products recorded profits.
 
 ![picture7](https://github.com/user-attachments/assets/1820a76d-277d-45e8-aeea-65d1b78f8e0d)
+
 
 Below is the graph depicting the change in profits over time.
 
@@ -120,10 +122,10 @@ Finally, it is crucial to investigate whether the expenses are effectively contr
 
 ## Executive summary
 
-+ The coffee chain offers a diverse but focused product range, with 2 product lines encompassing 4 product types and 13 distinct products, allowing for targeted marketing and streamlined operations while still providing variety to customers. This is an advantage, meaning that we can leverage several different products to target different tastes and demographic sectors. Notably, all product types and lines exhibit nearly equal popularity.
++ The coffee chain offers a diverse but focused product range, with 2 product lines encompassing 4 product types and 13 distinct products, allowing for targeted marketing and streamlined operations while still providing variety to customers. This is an asset, meaning that the firm can leverage several different products to target different tastes and demographic sectors. Notably, all product types and lines exhibit nearly equal popularity.
 + With an average profit of $60.56 per transaction and a healthy profit margin (average profit / average sales = 31.7%), the coffee chain appears to be operating efficiently, though there may be room to optimize expenses (28.2% of sales) to further improve profitability.
 + The firm has achieved more sales targets than profit targets overall. This discrepancy suggests that there may be underlying challenges in translating that revenue into actual profits.
-+ The West region, particularly in Small Markets, consistently outperforms other regions in total sales ($67,418) and average margin (160.42%), suggesting a strong market presence and efficient operations in this area. However, it also has the highest average COGS (149.28), indicating potential for cost optimization to further improve profitability.
++ The West region, particularly in Small Markets, consistently outperforms other regions in total sales ($67,418) and average margin (160.42%), suggesting a strong market presence and efficient operations in this area. However, it also has the highest average COGS ($149.28), indicating potential for cost optimization to further improve profitability.
 + High COGS in specific locations may highlight inefficiencies in supply chain logistics or supplier pricing. The COGS showed an upward trend each year, suggesting the need for optimizing procurement and production processes.
 
 ## Recommendations
