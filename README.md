@@ -32,9 +32,9 @@ This dataset, sourced from Kaggle, a widely recognized platform offering copyrig
 Key metrics include:
 + COGS (Cost of Goods Sold): This is the total expenditure incurred by the coffee chain in producing or purchasing its products, such as coffee, tea, and other items. Monitoring COGS is essential to understanding the true cost of sales and directly impacts the gross profit.
 + Difference between Actual and Target Profit: This attribute indicates the performance gap between the actual profit achieved and the target profit goal. A positive difference means the coffee chain exceeded its profit goals, while a negative one highlights areas where targets were not met, offering insight into the financial performance relative to expectations.
-+ Date: The date of each sales transaction, allowing for chronological tracking of sales
++ Date: The date of each sales transaction, allowing for chronological tracking of sales.
 + Inventory Margin: This metric reflects the profitability of inventory by showing the difference between the costs of maintaining or storing inventory and the revenue generated from selling it. 
-+ Margin: This measures the overall profitability of the firm
++ Margin: This measures the overall profitability of the firm.
 + Market Size: This attribute provides information on the size of the 20 markets, equivalent to the 20 US States where the firm operates. 
 + Profit: This is the net financial gain achieved after deducting the COGS and other operational expenses from the revenue generated. It represents the company's overall earnings and it’s a fundamental measure of its financial health and success.
 + Sales: Sales reflect the revenue generated from selling the coffee chain’s products, serving as a direct indicator of financial performance and customer demand. Analyzing sales trends can help in understanding consumer preferences, identifying best-selling products, and adjusting inventory accordingly.
