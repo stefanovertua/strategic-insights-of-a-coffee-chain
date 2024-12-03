@@ -36,7 +36,7 @@ Key metrics include:
 + Inventory Margin: This metric reflects the profitability of inventory by showing the difference between the costs of maintaining or storing inventory and the revenue generated from selling it. 
 + Margin: This measures the overall profitability of the firm.
 + Market Size: This attribute provides information on the size of the 20 markets, equivalent to the 20 US States where the firm operates. 
-+ Profit: This is the net financial gain achieved after deducting the COGS and other operational expenses from the revenue generated. It represents the company's overall earnings and it’s a fundamental measure of its financial health and success.
++ Profit: This is the net financial gain achieved after deducting the COGS and other operational expenses from the revenue generated. It represents the company's overall earnings and it’s a fundamental measure of financial health and success.
 + Sales: Sales reflect the revenue generated from selling the coffee chain’s products, serving as a direct indicator of financial performance and customer demand. Analyzing sales trends can help in understanding consumer preferences, identifying best-selling products, and adjusting inventory accordingly.
 
 The dataset also categorizes the 20 U.S. States into four regions—West, Central, East, and South—and classifies markets as Major or Small based on the state population.
@@ -102,7 +102,7 @@ Nonetheless, it is encouraging that all products recorded profits.
 
 Below is the graph depicting the change in profits over time.
 
-Profits plateaued from the beginning of the dataset until the end of 2013. However, a remarkable spike is recorded thereafter. <br>
+Profits plateaued from the beginning of the dataset until the end of 2013. However, a remarkable spike was recorded thereafter. <br>
 The last two quarters, however, have shown a significant decline. Despite this decline, profits in Q3 2015, while less than half of the peak reached in Q3 2014, still surpassed any quarter in 2012 and 2013. Notably, profits in 2015, despite missing a quarter, are more than double those in 2013 ($21,954 vs. $9,484).
 
 Since the lowest point in Q3 2013, the company has demonstrated steady improvements for a year. In fact, Q3 2014 alone recorded more profits than the entire year of 2013.
@@ -120,7 +120,7 @@ Finally, it is crucial to investigate whether the expenses are effectively contr
 
 ![picture10](https://github.com/user-attachments/assets/9029a14d-c160-4e31-ad3f-4fd4cd000d87)
 
-## Executive summary
+## Executive Summary
 
 + The coffee chain offers a diverse but focused product range, with 2 product lines encompassing 4 product types and 13 distinct products, allowing for targeted marketing and streamlined operations while still providing variety to customers. This is an asset, meaning that the firm can leverage several different products to target different tastes and demographic sectors. Notably, all product types and lines exhibit nearly equal popularity.
 + With an average profit of $60.56 per transaction and a healthy profit margin (average profit / average sales = 31.7%), the coffee chain appears to be operating efficiently, though there may be room to optimize expenses (28.2% of sales) to further improve profitability.
