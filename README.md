@@ -47,7 +47,7 @@ The dataset met a high standard of accuracy, and no further data cleaning was ne
 
 I began by importing the Excel dataset and reviewing its structure and contents.
 
-The dataset includes two product lines—Leaves and Beans—across four categories: Coffee, Herbal Tea, Espresso, and Tea, comprising 13 distinct products: Amaretto, Caffe Mocha, Earl Grey, Colombian, Caffe Latte, Chamomile, Mint, Decaf Irish Cream, Green Tea, Lemon, Regular Espresso, Decaf Espresso, and Darjeeling.
+The dataset includes two product lines, Leaves and Beans, across four categories: Coffee, Herbal Tea, Espresso, and Tea, comprising 13 distinct products: Amaretto, Caffe Mocha, Earl Grey, Colombian, Caffe Latte, Chamomile, Mint, Decaf Irish Cream, Green Tea, Lemon, Regular Espresso, Decaf Espresso, and Darjeeling.
 
 The average figures per transaction for key metrics are as follows:
 + Sales: $191.05
