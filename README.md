@@ -73,7 +73,7 @@ The following are the top and bottom five states by profit. As with sales, there
 
 
 Having analyzed the geographical distribution, I could now assess the product lines, focusing on sales and profits for each. The results, ranked by profits, indicate that Colombian coffee from the Beans product line has both the highest sales and the highest profits. <br>
-I suggest continuing promoting Colombian coffee, as it excels in both metrics. However, it would be worthwhile to explore whether further promotion could lead to saturation in the market.
+I suggest continuing to promote Colombian coffee, as it excels in both metrics. However, it would be worthwhile to explore whether further promotion could lead to saturation in the market.
 
 There is a significant disparity between the top products, both in terms of sales and profits, and those at the bottom. 
 
