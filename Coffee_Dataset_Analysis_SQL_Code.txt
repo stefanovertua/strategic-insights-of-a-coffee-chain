@@ -1,13 +1,13 @@
 -- Preview the data
--- This query retrieves the data from the Coffee_Chain_Sales table.
--- It helps to understand the structure and sample content of the dataset.
+-- This query retrieves the data from the Coffee_Chain_Sales table
+-- It helps to understand the structure and sample content of the dataset
 SELECT * 
 FROM Coffee_Chain_Sales;
 
 
 -- Count the number of distinct product lines, product types, and products
--- This query calculates the number of unique values for Product_line, Product_type, and Product columns.
--- The COUNT(DISTINCT column_name) function counts the distinct occurrences of each column value.
+-- This query calculates the number of unique values for Product_line, Product_type, and Product columns
+-- The COUNT(DISTINCT column_name) function counts the distinct occurrences of each column value
 SELECT 
     COUNT(DISTINCT Product_line) AS Product_lines,  -- Number of unique product lines
     COUNT(DISTINCT Product_type) AS Product_types,  -- Number of unique product types
@@ -19,8 +19,8 @@ FROM
 SELECT distinct Product_line, Product_type, Product FROM Coffee_Chain_Sales
 
 -- Calculate the average sales, profit, COGS, and expenses
--- This query computes the average of Sales, Cogs (Cost of Goods Sold), Total_expenses, and Profit columns.
--- The ROUND function is used to round the results to 2 decimal places for readability.
+-- This query computes the average of Sales, Cogs (Cost of Goods Sold), Total_expenses, and Profit columns
+-- The ROUND function is used to round the results to 2 decimal places for readability
 SELECT 
     ROUND(AVG(Sales), 2) AS Avg_Sales,            -- Average sales amount
     ROUND(AVG(Cogs), 2) AS Avg_Cogs,              -- Average cost of goods sold
@@ -32,8 +32,8 @@ FROM
 
 
 -- Analyze sales, profit, and other metrics across different market sizes and regions
--- This query aggregates sales and profit totals and calculates average margins, COGS, and inventory margins for different market sizes and regions.
--- The SUM function adds up values, and AVG calculates the average. Results are grouped by Market_size and Market.
+-- This query aggregates sales and profit totals and calculates average margins, COGS, and inventory margins for different market sizes and regions
+-- The SUM function adds up values, and AVG calculates the average. Results are grouped by Market_size and Market
 SELECT 
     Market_size,
     Market,
@@ -52,9 +52,9 @@ ORDER BY
     Market;
 
 -- Identify the top 3 states each year with maximum sales
--- This query uses a Common Table Expression (CTE) to rank states based on their total sales each year.
--- ROW_NUMBER() assigns a unique rank to each state within a given year based on total sales.
--- The final SELECT statement filters to show only the top 3 states per year.
+-- This query uses a Common Table Expression (CTE) to rank states based on their total sales each year
+-- ROW_NUMBER() assigns a unique rank to each state within a given year based on total sales
+-- The final SELECT statement filters to show only the top 3 states per year
 WITH RankedSales AS (
     SELECT 
         State,
@@ -84,8 +84,8 @@ ORDER BY
 
 
 -- Determine which products or product lines generate the most profit and sales
--- This query sums up sales and profit for each Product_Line and Product.
--- Results are ordered by Total_Profit and Total_Sales in descending order to identify the most profitable and highest-grossing products.
+-- This query sums up sales and profit for each Product_Line and Product
+-- Results are ordered by Total_Profit and Total_Sales in descending order to identify the most profitable and highest-grossing products
 SELECT 
     Product_Line,
     Product,
@@ -102,8 +102,8 @@ ORDER BY
 
 
 -- Identify the top products in terms of profitability within each product line
--- This query calculates total sales and profit for each Product_Line and Product.
--- The RANK() window function ranks products within each product line based on total profit.
+-- This query calculates total sales and profit for each Product_Line and Product
+-- The RANK() window function ranks products within each product line based on total profit
 ;WITH Profits AS (
     SELECT 
         Product_Line,
@@ -129,8 +129,8 @@ ORDER BY
 
 
 -- Compare actual performance (e.g., Profit, Sales) to target values across different dimensions (product lines, markets)
--- This query compares actual profit and sales against target values for each combination of Market_size, Market, and Product_Line.
--- Differences between actual and target values are also calculated.
+-- This query compares actual profit and sales against target values for each combination of Market_size, Market, and Product_Line
+-- Differences between actual and target values are also calculated
 SELECT 
     Market_size,
     Market,
@@ -155,8 +155,8 @@ ORDER BY
 
 
 -- Analyze how total expenses correlate with profit and sales across different markets and product lines
--- This query calculates total expenses and assesses their relationship with profit and sales by calculating expense ratios.
--- Profit_Expense_Ratio and Sales_Expense_Ratio show the efficiency of expenses in generating profit and sales.
+-- This query calculates total expenses and assesses their relationship with profit and sales by calculating expense ratios
+-- Profit_Expense_Ratio and Sales_Expense_Ratio show the efficiency of expenses in generating profit and sales
 SELECT 
     Product_Line,
     Market_size,
@@ -175,8 +175,8 @@ ORDER BY
     Sales_Expense_Ratio DESC;
 
 -- Analyze sales and profitability trends over time, including potential seasonal trends
--- This query tracks total sales and profit for each product over time by month and year.
--- It helps to identify trends and potential seasonality in sales and profitability.
+-- This query tracks total sales and profit for each product over time by month and year
+-- It helps to identify trends and potential seasonality in sales and profitability
 SELECT 
     Product,
     EXTRACT(YEAR FROM Date) AS Year,                     -- Extract the year from Date
@@ -265,7 +265,7 @@ ORDER BY
     Total_Sales DESC;                       -- Sort by total sales in descending order
 
 
--- DIfference between actual and targeted profit
+-- Difference between actual and targeted profit
 
 SELECT 
     State,                                          -- State grouping
