@@ -149,7 +149,7 @@ In conclusion, a thorough analysis of the coffee chain's sales data has provided
 
 ## Limitations
 
-Although the study provides useful information, it is subject to a couple of limitations.
+Although the study provides useful information, it is subject to a couple of limitations:
 + The dataset lacks data on specific purchase times throughout the day. Knowing this information could help analyze when peak sales times are, and consequently adjust staffing accordingly, in order to reduce labor costs during off-peak hours.
 + A more detailed market analysis is needed to provide better recommendations. It’s therefore necessary to conduct deeper research into customer preferences and competitor activity in high-performing regions to understand the drivers of success. 
 
