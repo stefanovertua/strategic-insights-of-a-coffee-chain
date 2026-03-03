@@ -13,7 +13,7 @@ The analysis addresses the following objectives:
 + Identifying trends, consumer preferences, and changes over time
 + Delivering actionable recommendations to the company stakeholders
 
-The analysis was conducted using PostgreSQL and Microsoft Excel for data visualization. <br>
+The analysis was conducted using SQL and Microsoft Excel for data visualization. <br>
 The dataset used in this analysis can be downloaded at this [link](https://www.kaggle.com/datasets/amruthayenikonda/coffee-chain-sales-dataset/data).
 
 The SQL code is available [here](Coffee_Dataset_Analysis_SQL_Code.txt).
