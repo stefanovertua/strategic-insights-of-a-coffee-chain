@@ -1,5 +1,4 @@
-# STRATEGIC INSIGHTS OF A COFFEE CHAIN: ENHANCING PROFITABILITY AND EFFICIENCY
-
+# Coffee Chain Performance Analysis: Sales, Profitability & Regional Trends | SQL + Excel
 ## Overview
 
 This document provides an analysis of key performance data for a prominent U.S.-based coffee chain with locations spanning 20 states. <br>
